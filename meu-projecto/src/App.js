@@ -2,22 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name = "Loid"
+  const newName =  name.toUpperCase()
+  function soma(a,b) {
+    return a+b
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h2>Alterando o jsx, {newName}</h2>  
+        <p>{soma(2,3)}</p>    
     </div>
   );
 }
