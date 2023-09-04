@@ -12,6 +12,7 @@ function App() {
   const nome = 'Aline Jorgina'
   return (
     <div className="App">
+        <h1>Testando css global</h1>
         <h2>Alterando o jsx, {newName}</h2>  
         <p>{soma(2,3)}</p>    
         <HelloWorld/>
