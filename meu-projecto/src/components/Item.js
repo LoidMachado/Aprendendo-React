@@ -12,4 +12,8 @@ Item.prototypes = {
     ano_lancamento:PropTypes.number.isRequired,
 }
 
+Item.defaultProps={
+    marca:'Faltou a marca',
+    ano_lancamento: 0,
+}
 export default Item
