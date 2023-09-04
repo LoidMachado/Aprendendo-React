@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SaymyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 function App() {
   const name = "Loid";
   const newName =  name.toUpperCase();
@@ -13,8 +14,11 @@ function App() {
   return (
     <div className="App">
         <h1>Testando css global</h1>
+        <Frase/>
+        <Frase/>
         <h2>Alterando o jsx, {newName}</h2>  
         <p>{soma(2,3)}</p>    
+        
         <HelloWorld/>
         <SayMyName nome='Loid'/>
         <SayMyName nome='Machado'/>
