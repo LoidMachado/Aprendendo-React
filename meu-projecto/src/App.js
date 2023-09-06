@@ -8,6 +8,8 @@ import List from './components/List';
 
 import Evento from './components/Evento';
 import Form from './components/Form';
+import Condicional from './components/Condicional';
+
 function App() {
   const name = "Loid";
   const newName =  name.toUpperCase();
@@ -34,7 +36,11 @@ function App() {
             nome='Ivanilda' 
             idade='12' 
             profissao='Estudante' 
-            foto='https://via.placeholder.com/150'/>
+            foto='https://via.placeholder.com/150'
+          />
+
+          <h1>Renderização Condicional</h1>
+          <Condicional/>
     </div>
   );
 }
