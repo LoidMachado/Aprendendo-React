@@ -1,11 +1,20 @@
-function Evento({numero}) {
+import Button from './evento/Button'
+function Evento() {
     function meuEvento() {
-        console.log(`Opa, fui activado ${numero}`)
+        console.log(`Activando o primeiro evento`)
     }
+
+    //Criando método par componente filho
+
+    function segundoEvento() {
+        console.log('Activando o segundo evento')
+    }
+
     return(
         <div>
             <p>Clique para disparar um evento:</p>
-            <button onClick={meuEvento}>Activar</button>
+            <Button event={meuEvento} text="Primeiro evento"/>
+            <Button event={segundoEvento} text="Segundo evento"/>
         </div>
     )
 }

@@ -18,8 +18,7 @@ function App() {
   return (
     <div className="App">
         <Form/>
-        <Evento numero="1"/>
-        <Evento numero="2"/>
+        <Evento/>
         <h1>Testando css global</h1>
         <Frase/>
         <Frase/>
