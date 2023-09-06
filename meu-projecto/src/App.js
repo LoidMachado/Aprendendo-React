@@ -7,6 +7,7 @@ import Frase from './components/Frase';
 import List from './components/List';
 
 import Evento from './components/Evento';
+//import Form from './components/Form';
 function App() {
   const name = "Loid";
   const newName =  name.toUpperCase();
@@ -16,9 +17,9 @@ function App() {
   const nome = 'Aline Jorgina'
   return (
     <div className="App">
+        
         <Evento numero="1"/>
         <Evento numero="2"/>
-
         <h1>Testando css global</h1>
         <Frase/>
         <Frase/>
